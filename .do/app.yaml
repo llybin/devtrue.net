@@ -1,0 +1,8 @@
+name: devtrue-net-html
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: llybin/devtrue.net
+  name: devtrue-net-html
